@@ -1,0 +1,27 @@
+body{
+	font-family: cursive;
+	font-size: 20px;
+	color:black;
+	background-image: url("./photo-1498837167922-ddd27525d352.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: 0.5;
+	height:100vh
+
+
+
+}
+*{
+	
+	padding:10px;
+}
+.classop{
+	text-align: center;
+}
+.opp{
+	text-align: center;
+	text-shadow: 2px 2px yellow;
+	font-size: 10px;
+
+}
+	

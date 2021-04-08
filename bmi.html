@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BMI FORM FILL UP</title>
+	<link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+	<div class=".op">
+	<h1 class="classop">THE BMI CALCULATOR</h1>
+	<hr>
+	<div>
+		<label for="user/name">USER/NAME</label>
+		<input type="text" id="user" name="username">
+		<br>
+		<label for="date">DATE OF BIRTH</label>
+		<input type="date">
+		<br>
+		<label for="diet">DO YOU HAVE A KNOWLEDGE ON HEALTH/NUTRITION</label>
+		<br>
+		<label for="yes">YES></label>
+		
+		<input type="radio" id="diet" name="yes" value="yes">
+		<br>
+		<label for="no">NO</label>
+		<input type="radio" id="diet" name="no" value="no">
+		<br>
+		<label for="athelete">ARE YOU AN ATHLETE</label>
+		<br>
+		<label for="yes">YES</label>
+		<input type="radio" id="diet" name="yes" value="yes">
+		<br>
+		<label for="no">NO</label>
+		<input type="radio" id="diet" name="no" value="no">
+		<br>
+        <label for="exercise">HOW MANY HOURS DO YOU PERFORM EXERCISE</label>
+<br>
+        		<label for="greater">greater than one hour</label>
+
+		<input type="radio" id="exercise" name="greater" value="greater">
+<br>
+		<label for="lesser">lesser than one hour</label>
+		<input type="radio" id="exercise" name="lesser" value="lesser">
+<br>
+<br>
+<hr>
+<div class="opp">
+<h2>	BMI TABLE (SCROLL DOWN) </h2>
+</div>
+<div class="classop">
+<table width="10px" border="3px">
+<body>	
+	<tr>
+		<td>bmi report < 18.5</td>
+		<td>bmi report >18.5 & bmi report <25</td>
+		<td>bmi report >25</td>
+	</tr>
+<tr>
+<td>YOU ARE VERY THIN</td>
+<td>YOU ARE HEALTHY</td>
+<td>YOU ARE OVERWEIGHT</td>
+</tr>
+</body>	
+</table>
+</div>
+<p></p>
+<hr>
+<h3 class="classop">ENTER YOUR DETAILS </h3>
+<form name="bmireport">
+<label for="weight">WEIGHT </label>
+<input type="text" id="BMIFORM" name="weight">
+<br>
+<label for="height">HEIGHT</label>
+<input type="text"  id="BMIFORM" name="height">
+
+<br>]
+<input type="button"  value=" bmical " onclick="bmical()"><br>
+
+<br><hr><br>
+ YOUR BMI REPORT : <input type ="text" name="bmi" size="10">
+ <br>
+ THIS MEANS : <input type="text" name="meaning" size="20">
+ <br>
+</div>
+<br>
+<hr>
+
+</form>
+</div>
+<script src="./bmi.js"></script>
+</body>
+</html>
