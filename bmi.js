@@ -1,3 +1,4 @@
+
 function bmical()
 {
 	var height = document.bmireport.height.value

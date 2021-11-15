@@ -1,20 +1,22 @@
-body{
-	font-family: cursive;
-	font-size: 20px;
-	color:black;
-	background-image: url("./photo-1498837167922-ddd27525d352.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	opacity: 0.5;
-	height:100vh
-
-
-
+body, html {
+    padding: 0;
+    margin: 0;
 }
-*{
-	
-	padding:10px;
+.slider {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
 }
+.slider input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
 .classop{
 	text-align: center;
 }
@@ -24,4 +26,4 @@ body{
 	font-size: 10px;
 
 }
-	
+
